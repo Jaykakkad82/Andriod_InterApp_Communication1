@@ -1,4 +1,5 @@
-# AIDL based Interaction between AudioClient App and ClipServer App.
+# MoodPlay : Seamless Multimedia Experience with ClipServer and AudioClient
+## AIDL based Interaction between AudioClient App and ClipServer App.
 - Andriod uses Proxy design pattern and Broker Design pattern to set up inter-process communication amongst apps. In this project we explore this communication paradigm.
 - Clipserver is a Started as well as Bound Service. ClipServer App holds the music files and exposes an API to play, resume, stop and Pause the music via an Aidl interface file.
 - Clipserver starts as a ForeGround Service and hence has a Notification displayed.
